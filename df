@@ -1,0 +1,133 @@
+[33mcommit 4a0d5c1a568011896c04793fb7d833629382eeb3[m[33m ([m[1;36mHEAD -> [m[1;32mmobile[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: d17c5ac 98723dc
+Author: Brad Conklin <77289199+bconklinua@users.noreply.github.com>
+Date:   Tue Mar 19 10:11:01 2024 -0600
+
+    Merge pull request #8 from bconklinua/mobile
+    
+    installed react-native
+
+[33mcommit 98723dcecbed14a32c7e122da176a7821ba2d827[m[33m ([m[1;31morigin/mobile[m[33m)[m
+Author: Brad Conklin <brad@otronline.com>
+Date:   Tue Mar 19 10:08:54 2024 -0600
+
+    installed react-native
+
+[33mcommit d17c5ace4a3bce5298d81dc96f474ffdc8514964[m
+Merge: e436c6e c00f6ab
+Author: Saurab Harish Prabhakar <49376623+hsprabhakar@users.noreply.github.com>
+Date:   Tue Mar 19 00:27:51 2024 -0600
+
+    Merge pull request #7 from bconklinua/home-page
+    
+    Cardview wont expand down
+
+[33mcommit c00f6abe8724ee091d59db43c7a15e5bb221b49d[m
+Author: hsprabhakar <saurab@ualberta.ca>
+Date:   Tue Mar 19 00:26:06 2024 -0600
+
+    Cardview wont expand down
+    
+    DOnt know why it wont expand downwards
+
+[33mcommit e436c6e79756af9dd1f82e6db0320473df74f717[m
+Merge: 8495b67 8e7b856
+Author: Saurab Harish Prabhakar <49376623+hsprabhakar@users.noreply.github.com>
+Date:   Mon Mar 18 20:41:33 2024 -0600
+
+    Merge pull request #6 from bconklinua/staging
+    
+    Staging
+
+[33mcommit 8e7b856202a14aa30b255c03f9c166bd9b47432e[m
+Author: hsprabhakar <saurab@ualberta.ca>
+Date:   Mon Mar 18 20:40:58 2024 -0600
+
+    Updated readme
+
+[33mcommit e7675c6ce08603a92b2120d25ab7f38e342741ab[m
+Author: hsprabhakar <saurab@ualberta.ca>
+Date:   Mon Mar 18 20:28:50 2024 -0600
+
+    readme
+
+[33mcommit 8495b679c25c7e15ad17b605f48a39718af932cd[m
+Merge: c28adb8 d1ca55d
+Author: Brad Conklin <77289199+bconklinua@users.noreply.github.com>
+Date:   Mon Mar 18 17:11:52 2024 -0600
+
+    Merge pull request #5 from bconklinua/brad
+    
+    Remove .idea from repo
+
+[33mcommit d1ca55dbabeb4ec0a9ab7d4f595819094fd118e3[m[33m ([m[1;31morigin/brad[m[33m)[m
+Author: Brad Conklin <brad@otronline.com>
+Date:   Mon Mar 18 17:11:28 2024 -0600
+
+    Remove .idea from repo
+
+[33mcommit c28adb8d23958df88a9a583fbb5851ed56df8719[m
+Merge: ede11f1 59ca0fb
+Author: Brad Conklin <77289199+bconklinua@users.noreply.github.com>
+Date:   Mon Mar 18 17:10:09 2024 -0600
+
+    Merge pull request #4 from bconklinua/brad
+    
+    .
+
+[33mcommit 59ca0fbd60cb231b29403ca0d9fbac43dfa53c1b[m
+Author: Brad Conklin <brad@otronline.com>
+Date:   Mon Mar 18 17:09:48 2024 -0600
+
+    .
+
+[33mcommit ede11f1ff31ae680e111e91044729ae926e992e7[m
+Merge: c9db260 f2300ca
+Author: Brad Conklin <77289199+bconklinua@users.noreply.github.com>
+Date:   Mon Mar 18 17:09:18 2024 -0600
+
+    Merge pull request #3 from bconklinua/brad
+    
+    added .idea to .gitignore
+
+[33mcommit f2300caa952d049430d54c70ba76ff4b34191ef9[m
+Author: Brad Conklin <brad@otronline.com>
+Date:   Mon Mar 18 17:08:40 2024 -0600
+
+    added .idea to .gitignore
+
+[33mcommit c9db2603ea60de4e85ec43802e2787d90805366f[m
+Merge: 4194b57 e3307e3
+Author: Brad Conklin <77289199+bconklinua@users.noreply.github.com>
+Date:   Mon Mar 18 15:48:15 2024 -0600
+
+    Merge pull request #2 from bconklinua/brad
+    
+    changed backend port to 4000
+
+[33mcommit e3307e32e6ef791ec5dac30902f748b1bfb67a9d[m
+Author: Brad Conklin <brad@otronline.com>
+Date:   Mon Mar 18 15:47:46 2024 -0600
+
+    changed backend port to 4000
+
+[33mcommit 4194b57d70d30df9486065626a412dd41500bed0[m
+Merge: 34eb9c9 f8a0d68
+Author: Brad Conklin <77289199+bconklinua@users.noreply.github.com>
+Date:   Mon Mar 18 15:30:05 2024 -0600
+
+    Merge pull request #1 from bconklinua/brad
+    
+    init express.js
+
+[33mcommit f8a0d683d4eceaf6487b49c93090a172ac354aec[m
+Author: Brad Conklin <brad@otronline.com>
+Date:   Mon Mar 18 15:27:06 2024 -0600
+
+    init express.js
+
+[33mcommit 34eb9c96d60902546f82c991cddb3ed8f19c97fb[m
+Author: Brad Conklin <brad@otronline.com>
+Date:   Mon Mar 18 14:51:47 2024 -0600
+
+    Initial project setup

@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+nav ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline; /* Display links in a line */
+  margin-right: 20px; /* Adds some space between the links */
+}
+
+nav a {
+  text-decoration: none; /* Removes underline from links */
+  color: #000; /* Sets link color to black (or choose your color) */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Adds underline on hover for visual feedback */
+}

@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import LoginForm from './components/LoginForm';
 import RegistrationForm from './components/RegistrationForm';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
   return (
@@ -19,10 +19,10 @@ function App() {
           </ul>
         </nav>
 
-        <Switch>
-          <Route exact path="/" component={LoginForm} />
-          <Route path="/register" component={RegistrationForm} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<LoginForm />} />
+          <Route path="/register" element={<RegistrationForm />} />
+        </Routes>
       </div>
     </Router>
   );

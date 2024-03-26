@@ -1,14 +1,27 @@
-// backend/server.js
+// server.js
+require('dotenv').config();
 const express = require('express');
+const cors = require('cors');
 const app = express();
-const PORT = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 
-// Define routes
+// Configure CORS
+app.use(cors({
+    origin: 'http://localhost:3000', // Allow only the frontend origin
+}));
+
+// Import routes
+const userRoutes = require('./routes/users');
+
+app.use(express.json()); // Middleware to parse JSON bodies
+
+// Use routes
+app.use(userRoutes);
+
 app.get('/', (req, res) => {
-    res.send('Hello from Express backend!');
+    res.send('Hello World!');
 });
 
-// Start server
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+app.listen(port, () => {
+    console.log(`App listening at http://localhost:${port}`);
 });

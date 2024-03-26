@@ -1,24 +1,78 @@
+css
+Copy code
+.App {
+  text-align: center;
+  min-height: 100vh; /* Ensures the container takes at least the full height of the viewport */
+}
+
+/* Adjusting the navigation bar */
+nav {
+  width: 100%; /* Ensures nav takes up the full width */
+  background-color: #7b9bbb; /* Light background for the nav bar */
+  padding: 10px 0; /* Adds some vertical padding */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 10px; /* Space between nav items */
+  padding: 12px 34px; /* addes 12px padding inside each navbar item */
+}
+
+nav a {
+  text-decoration: none; /* Removes underline from links */
+  color: #007bff; /* Bootstrap's default link color for consistency */
+  background-color: #ffffff; /* White background for button */
+  padding: 10px 20px; /* Padding inside the button */
+  border: 1px solid #007bff; /* Border color similar to the text */
+  border-radius: 5px; /* Rounded corners for the buttons */
+  transition: background-color 0.2s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+  background-color: #007bff; /* Background color on hover */
+  color: #ffffff; /* Text color on hover */
+}
+
 /* General form styling */
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 15px; /* Spacing between form elements */
-  margin: auto; /* Center the form */
+  gap: 20px; /* Spacing between form elements */
   padding: 20px;
   max-width: 400px; /* Set a max-width for the form */
+  width: 100%;
+  margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow to the form */
   border-radius: 8px; /* Optional: round the corners of the form */
   background-color: #fff; /* Optional: change the background color */
 }
 
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Ensures all form fields take full width of the form */
+  min-width: 100%;
+  max-width: 350px; /* Optional: Specify a max-width for form fields if needed for consistency */
+  margin: auto;
+}
+
 label {
-  align-self: flex-start;
+  margin-bottom: 5px; 
 }
 
 input {
-  width: 100%; /* Make input fields take up the full width of the form */
+  width: 400px; /* Make input fields take up the full width of the form */
+  min-width: 100%;
+  max-width: 100%;
   padding: 8px;
   margin: 5px 0; /* Add some space above and below input fields */
   box-sizing: border-box; /* Ensure padding does not affect the overall width */
@@ -38,25 +92,4 @@ button {
 
 button:hover {
   background-color: #45a049; /* Darker shade for hover effect */
-}
-
-/* Additional styles for alignment and spacing */
-nav ul {
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  list-style-type: none;
-}
-
-nav li {
-  margin: 0 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #000;
-}
-
-nav a:hover {
-  text-decoration: underline;
 }
